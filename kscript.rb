@@ -1,4 +1,4 @@
-class kscript < Formula
+class Kscript < Formula
   desc "kscript"
   homepage "https://github.com/holgerbrandl/kscript"
   url "https://github.com/holgerbrandl/kscript/releases/download/v2.1.1/kscript-2.1.1-bin.zip"
