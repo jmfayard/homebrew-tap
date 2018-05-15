@@ -1,8 +1,8 @@
 class Kscript < Formula
   desc "kscript"
   homepage "https://github.com/holgerbrandl/kscript"
-  url "https://github.com/holgerbrandl/kscript/releases/download/v2.4.2/kscript-2.4.2-bin.zip"
-  sha256 "83cb83b058b538cfc8de10e7a06a89e5e8e553d0057210945e93384416468d68"
+  url "https://github.com/holgerbrandl/kscript/releases/download/v2.4.3/kscript-2.4.3-bin.zip"
+  sha256 "471831fa2ccb80419a0b85983c832940c74ff50bde23b91ea6dba628379e1f9c"
 
   depends_on "kotlin"
 
