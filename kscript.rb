@@ -12,3 +12,4 @@ class Kscript < Formula
     bin.install_symlink "#{libexec}/bin/kscript"
   end
 end
+
