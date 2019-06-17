@@ -1,8 +1,8 @@
 class Kscript < Formula
   desc "kscript"
   homepage "https://github.com/holgerbrandl/kscript"
-  url "https://github.com/holgerbrandl/kscript/releases/download/v2.7.1/kscript-2.7.1-bin.zip"
-  sha256 "bf5c095dc3321b597c787f281ac690d51928da88d29ee29bff48ed5233d1840a"
+  url "https://github.com/holgerbrandl/kscript/releases/download/v2.8.0/kscript-2.8.0-bin.zip"
+  sha256 "162f980d53b27e44e0853fd0c3bc1da1bcea0c1cbd985d6991e82773352e041a"
 
   depends_on "kotlin"
 
@@ -12,4 +12,3 @@ class Kscript < Formula
     bin.install_symlink "#{libexec}/bin/kscript"
   end
 end
-
