@@ -20,7 +20,7 @@ class KotlinCliStarter < Formula
 
   test do
     system "git", "init"
-    testpath/"test").write "test"
+    testpath/"test".write "test"
     system "git", "add", "#{testpath}/test"
     system "git", "commit", "--message", "test"
     system "git", "config", "--global", "user.name", "tap.user"
